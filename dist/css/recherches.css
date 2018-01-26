@@ -1,0 +1,32 @@
+.btn.btn-md.btn-primary {
+    width:150px;
+    margin-bottom: 20px;
+}
+
+nav {
+    width:100vw;
+    height:7vh;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav span {
+    color:white;
+    margin-right:20px;
+}
+
+.btn.btn-md.btn-secondary {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+}
+
+.row.nav {
+    position: absolute;
+    padding-left: 15px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Guide ARKmon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>Nom du jeu</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/inscription.css">
+</head>
+<body>
+	</br></br></br></br></br>
+	<form align="center" method="post" action="/inscription.php">
+<h2>Inscription</h2></br>
+<table align="center">
+<tr>
+<td>
+	<input type="text" class="form-control" aria-describedby="email" name="id" placeholder="Pseudo">
+</td>
+</tr>
+<tr>
+<td>
+	<input type="text" class="form-control" aria-describedby="email" name="email" id="em" placeholder="Email">
+</td>
+</tr>
+<tr>
+<td>
+	<input type="text" class="form-control" aria-describedby="email" name="email2" id="em2" placeholder="Email à confirmer">
+</td>
+</tr>
+<tr>
+<td>
+	<input type="password" class="form-control" aria-describedby="email" name="password" id="md" placeholder="Mot de passe">
+</td>
+</tr>
+<tr>
+<td>
+	<input type="password" class="form-control" aria-describedby="email" name="password2" id="md2" placeholder="Mot de passe à confirmer">
+</td>
+</tr>
+<tr>
+	<td>
+			<select name="categorie" class="form-control">
+					<option value="Conquérant">Conquérant</option>
+					<option value="Commercial">Commercial</option>
+				  </select>
+	</td>
+</tr>
+</table>
+<div style="text-align:center;"><button type="submit" name="submit" class="btn btn-lg btn-success">M'inscrire</button></div>
+</form>
+<div style="text-align:center;"><a href="index.html"><button class="btn btn-lg btn-primary">Me connecter</button></a></div>
+<script src="dist/js/bootstrap.min.js"></script>
+</body>
+</html>
