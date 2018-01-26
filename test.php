@@ -8,7 +8,7 @@ if(isset($_SESSION['id'])) {
 	<?php
 	try
 {
-    $bdd = new PDO('mysql:host=185.98.131.90;dbname=prepr941845;charset=utf8', 'prepr941845', 'ekiqimbcdv');
+    $bdd = new PDO('mysql:host=localhost;dbname=connexion;charset=utf8', 'root', 'Foudre46');
 }
 
 catch(Exception $e)

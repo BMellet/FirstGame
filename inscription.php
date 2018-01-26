@@ -1,6 +1,6 @@
 <?php
 
-$bdd = new PDO('mysql:host=185.98.131.90;dbname=prepr941845;charset=utf8', 'prepr941845', 'ekiqimbcdv');
+$bdd = new PDO('mysql:host=localhost;dbname=connexion;charset=utf8', 'root', 'Foudre46');
 if(isset($_POST['submit'])) {
 	if(isset($_POST['id'],$_POST['email'],$_POST['email2'],$_POST['password'],$_POST['password2'])) {
 		if(!empty($_POST['id']) AND !empty($_POST['email']) AND !empty($_POST['email2']) AND !empty($_POST['password']) AND !empty($_POST['password2'])) {
